@@ -10,5 +10,5 @@ public class Ladrillo extends GRect{
 		super(x, y, width, height);
 		this.setFillColor(c);
 		this.setFilled(true);
-}
 	}
+}
