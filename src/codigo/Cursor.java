@@ -12,6 +12,7 @@ public class Cursor extends GRect{
 		this.setFillColor(c);
 		this.setFilled(true);
 	}
+// esta el la posicion que puede tener la barra en el juego
 	public void muevete(int anchopantalla, int posX){
 		if(posX + getWidth()< anchopantalla) {
 			setLocation(posX , getY());
@@ -19,6 +20,3 @@ public class Cursor extends GRect{
 	}
 
 }
-
-
-
